@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9654bc0b-39bd-41ef-b7a9-fb777a987760" name="Default Changelist" comment="" />
+    <list default="true" id="9654bc0b-39bd-41ef-b7a9-fb777a987760" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Info.php" beforeDir="false" afterPath="$PROJECT_DIR$/Info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/full.php" beforeDir="false" afterPath="$PROJECT_DIR$/full.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +23,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP (1)" />
   <component name="ProjectId" id="1jT88DhiwgSr01AKu90euLf869f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +60,8 @@
       <workItem from="1603986598918" duration="9210000" />
       <workItem from="1604073577384" duration="7463000" />
       <workItem from="1604331829361" duration="3164000" />
-      <workItem from="1604418108752" duration="6882000" />
+      <workItem from="1604418108752" duration="9849000" />
+      <workItem from="1604505709683" duration="2754000" />
     </task>
     <servers />
   </component>
@@ -75,6 +85,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="291" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604419580550" />
+    <state x="806" y="518" key="Github.ShareDialog" timestamp="1604425701416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="518" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604425701416" />
+    <state x="732" y="300" key="Github.UntrackedFilesDialog" timestamp="1604425728026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="300" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604425728026" />
     <state width="1874" height="271" key="GridCell.Tab.0.bottom" timestamp="1603996623047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

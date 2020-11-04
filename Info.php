@@ -18,7 +18,6 @@ class Info
         $this->date=$date;
         $this->desc=$desc;
         $this->isTop=$isTop;
-        //$this->id=$id;
     }
     public function GetArr()
     {
@@ -44,9 +43,6 @@ class Info
     {
         return $this->isTop;
     }
-    public function GetId()
-    {
-        return $this->id;
-    }
+
 }
 ?>
