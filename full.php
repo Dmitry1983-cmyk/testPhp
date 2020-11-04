@@ -12,7 +12,8 @@ class FullrenDesc
 
     function RenderFullDesc($arr)
     {
-        $back=new FullrenDesc();
+
+        //$back=new FullrenDesc();
         echo '<div style="display:flex;justify-content: center;">
             <div style="width: 70%;">
                 <div style="width: 500px;height: 400px;">
@@ -20,8 +21,11 @@ class FullrenDesc
                 </div> 
                 <div><h2>'.$arr->GetDesc().'</h3></div>
                 <div><h2>'.$arr->GetCost().'</h2></div>  
-                    
+                    <div>
+                        <a href="index.php?btn='.$_COOKIE['cookie'].'" style="text-decoration: none"><h3><=Вернуться</h3></a>
+                    </div>
             </div>
+            
                     </div>';
 
     }
@@ -51,7 +55,7 @@ function ShowAd()
             "Днепр, Индустриальный",
             false),
         new Info("https://ireland.apollo.olxcdn.com/v1/files/uhxelef95z1w1-UA/image;s=644x461",
-            "Фонарь заднего бампера Mazda CX-5 2017 +",
+            "Фонарь заднего бампера Mazda CX-5 2017",
             "40$",
             "Сегодня 17:46",
             "Днепр, Амур-Нижнеднепровский ",
@@ -108,7 +112,6 @@ function ShowAd()
            if($value->GetDesc()== $_GET['id'])
            {
                $info=new  Info($value->GetArr(),$value->GetDesc(),$value->GetCost(),$value->GetAdr(),$value->GetDate(),$value->GetIsTop());
-               //$info=$value;break;
            }
        }
       $ad->RenderFullDesc($info);

@@ -26,7 +26,7 @@
             "Днепр, Индустриальный",
             false),
         new Info("https://ireland.apollo.olxcdn.com/v1/files/uhxelef95z1w1-UA/image;s=644x461",
-            "Фонарь заднего бампера Mazda CX-5 2017 +",
+            "Фонарь заднего бампера Mazda CX-5 2017",
             "40$",
             "Сегодня 17:46",
             "Днепр, Амур-Нижнеднепровский ",
@@ -84,6 +84,29 @@
     else
     {
         echo $ar->generatePage(0);
+    }
+    ?>
+</form>
+
+<form method="post"  action="index.php">
+    <?php
+    echo '<div style="display:flex;justify-content: center;">
+        <div>
+            <input type="search" name="search">
+            <input type="submit" value="Найти">
+        </div>
+    </div>';
+
+    $search=$_POST['search'];
+    if(isset($_POST['search']))
+    {
+        foreach ($arr_image_url as $key=>$value)
+        {
+            if($_POST['search']==$value->GetDesc())
+            {
+                echo '<div>Ok</div>';
+            }
+        }
     }
     ?>
 </form>
