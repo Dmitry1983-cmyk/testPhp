@@ -20,6 +20,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,12 +35,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../instagramPHP" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/1234/php/DeliveryDnepr" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -61,7 +65,9 @@
       <workItem from="1604073577384" duration="7463000" />
       <workItem from="1604331829361" duration="3164000" />
       <workItem from="1604418108752" duration="9849000" />
-      <workItem from="1604505709683" duration="9099000" />
+      <workItem from="1604505709683" duration="9145000" />
+      <workItem from="1604590918947" duration="5381000" />
+      <workItem from="1604679016465" duration="7078000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1604508546907</created>
@@ -70,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604508546907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="qwe">
+      <created>1604515300344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604515300344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,22 +98,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="179" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1603820286402" />
-    <state x="413" y="172" width="1094" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603820289159">
+    <state x="413" y="172" width="1094" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604599277866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="413" y="172" width="1094" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603820289159" />
+    <state x="413" y="172" width="1094" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604599277866" />
     <state x="680" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603818138052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603818138052" />
-    <state x="584" y="86" key="CommitChangelistDialog2" timestamp="1604508545639">
+    <state x="584" y="86" key="CommitChangelistDialog2" timestamp="1604515299808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="584" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604508545639" />
-    <state x="739" y="291" key="FileChooserDialogImpl" timestamp="1604419580550">
+    <state x="584" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604515299808" />
+    <state x="739" y="291" key="FileChooserDialogImpl" timestamp="1604680688970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="291" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604419580550" />
+    <state x="739" y="291" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604680688970" />
     <state x="806" y="518" key="Github.ShareDialog" timestamp="1604425701416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -141,6 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1800" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603910381789" />
+    <state width="194" height="463" key="HiddenNamespacesPopup" timestamp="1604599282724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="194" height="463" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604599282724" />
     <state x="748" y="240" key="NewPhpClassDialog" timestamp="1603818471992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -149,9 +166,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="441" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603992998620" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1604508556670">
+    <state x="460" y="150" key="SettingsEditor" timestamp="1604598797878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604508556670" />
+    <state x="460" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604598797878" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1604515302112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604515302112" />
+    <state x="817" y="255" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604599349318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="255" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604599349318" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604684384937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604684384937" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/full.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

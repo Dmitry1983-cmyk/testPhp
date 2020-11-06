@@ -1,3 +1,13 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>OLX</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
 <?php
 include_once "Info.php";
 include_once "RenderMini.php";
@@ -22,7 +32,7 @@ class FullrenDesc
                 <div><h2>'.$arr->GetDesc().'</h3></div>
                 <div><h2>'.$arr->GetCost().'</h2></div>  
                     <div>
-                        <a href="index.php?btn='.$_COOKIE['cookie'].'" style="text-decoration: none"><h3><=Вернуться</h3></a>
+                        <a class="btn" href="index.php?btn='.$_COOKIE['cookie'].'"><h3>Вернуться</h3></a>
                     </div>
             </div>
             
@@ -31,6 +41,8 @@ class FullrenDesc
     }
 }
 
+//<a href="index.php?btn='.$_COOKIE['cookie'].'" style="text-decoration: none"><h3><=Вернуться</h3></a>
+//<a href="#" class="fancy-btn">Вернуться.</a>
 function ShowAd()
 {
     $arr_image_url=[new  Info("https://ireland.apollo.olxcdn.com/v1/files/3vlomj86ln98-UA/image;s=644x461",
@@ -120,3 +132,6 @@ function ShowAd()
 }
 ShowAd();
 ?>
+
+</body>
+</html>

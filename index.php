@@ -1,3 +1,13 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<title>OLX</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
 
 <form method="get" action="index.php">
     <?php
@@ -97,9 +107,10 @@
         </div>
     </div>';
 
-    $search=$_POST['search'];
+
     if(isset($_POST['search']))
     {
+        $search=$_POST['search'];
         foreach ($arr_image_url as $key=>$value)
         {
             if($_POST['search']==$value->GetDesc())
@@ -110,3 +121,6 @@
     }
     ?>
 </form>
+
+</body>
+</html>

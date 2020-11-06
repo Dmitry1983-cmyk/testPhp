@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <title>OLX</title>
 <head>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -41,7 +42,7 @@ class Main
 
         for ($i=0;$i<count($this->render_full);$i++)
         {
-            $tmp=$tmp. '<button style="width:50px;background:aqua;margin:0 5" name="btn" value="'.($i+(1)).'">'.($i+(1)).'</button>';
+            $tmp=$tmp. '<button class="btn" name="btn" value="'.($i+(1)).'">'.($i+(1)).'</button>';
         }
         return $tmp;
     }
@@ -52,4 +53,3 @@ class Main
 
 </body>
 </html>
-
